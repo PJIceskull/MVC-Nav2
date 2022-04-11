@@ -1,0 +1,27 @@
+Form {
+  font-family: sans-serif;
+
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+  .contactBox {
+    height: 50px;
+    width: 50%;
+    border: 2px solid rgb(255, 63, 60);
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  .submitBOX {
+    background-color: rgb(255, 63, 60);
+    color: #ffffff;
+    font-size: 16px;
+    border-style: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    margin-top: 25px;
+    &:hover {
+      background-color: rgb(191, 52, 49);
+    }
+  }
+}
