@@ -17,10 +17,18 @@ h5,
 h6,
 p {
   margin-bottom: 16px;
+  font-family: sans-serif;
 }
 
 #app {
   padding: 30px;
+}
+
+.title-hr {
+  min-width: 35%;
+  background-color: rgb(255, 63, 60);
+  border: 1px solid rgb(255, 63, 60);
+  margin-top: 8px;
 }
 
 nav {
@@ -34,6 +42,30 @@ nav a {
   text-decoration: none;
   font-family: sans-serif;
   color: #fff;
+}
+
+Form {
+  font-family: sans-serif;
+}
+Form .contactBox {
+  height: 50px;
+  width: 50%;
+  border: 2px solid rgb(255, 63, 60);
+  margin-top: 25px;
+  margin-left: 50px;
+}
+Form .submitBOX {
+  background-color: rgb(255, 63, 60);
+  color: #ffffff;
+  font-size: 16px;
+  border-style: none;
+  height: 50px;
+  width: 130px;
+  border-radius: 50px;
+  margin-top: 25px;
+}
+Form .submitBOX:hover {
+  background-color: rgb(191, 52, 49);
 }
 
 /*# sourceMappingURL=styles.css.map */
