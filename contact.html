@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MVC9 CONTACT</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#products">PRODUCTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div id="app">
+      <h1>
+        CONTACT
+        <hr class="title-hr" />
+      </h1>
+      <form>
+        <!-- Name -->
+        <div>
+          <label>Name:</label>
+          <input class="contactBox" type="text" placeholder="Name..." name="" />
+        </div>
+        <!-- email -->
+        <div>
+          <label>Email:</label>
+          <input
+            class="contactBox"
+            type="email"
+            placeholder="Email..."
+            name=""
+          />
+        </div>
+
+        <!-- Phone number -->
+        <div>
+          <label>Phone Number:</label>
+          <input
+            class="contactBox"
+            type="text"
+            placeholder="Phone Number..."
+            name=""
+          />
+        </div>
+
+        <!-- submit box -->
+        <input class="submitBOX" type="submit" value="SUBMIT" />
+      </form>
+    </div>
+
+    <script src="lib/ujquery-3.6.0.min.js"></script>
+    <script type="module" src="model/model.js"></script>
+    <script type="modle" src="app/app.js"></script>
+  </body>
+</html>
