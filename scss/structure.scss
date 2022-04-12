@@ -28,3 +28,13 @@ p {
   border: 1px solid rgb(255, 63, 60);
   margin-top: 8px;
 }
+
+.heroBanner {
+  height: 330px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url(../images/fjord.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
