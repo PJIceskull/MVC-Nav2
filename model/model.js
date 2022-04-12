@@ -1,5 +1,22 @@
 //
-var homeContent = `<h1>HOME</h1>`;
+var homeContent = ` <h1>HOME
+<hr class="title-hr"/></h1>
+
+      <div class="heroBanner"></div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fugit
+        error voluptatum expedita, perspiciatis totam reiciendis culpa rem
+        magnam aspernatur, optio earum voluptates architecto, ad iure quod
+        dolorem mollitia neque obcaecati atque voluptate facere aliquam? In
+        necessitatibus odio doloremque saepe, ullam, ducimus ea, eligendi
+        suscipit eius explicabo totam iste! Voluptatem voluptatum animi nemo.
+        Tenetur ratione nulla pariatur a praesentium ex rerum nisi. Commodi
+        eaque eum amet nam debitis, provident sit ea! Maiores officia omnis ex
+        veniam quo accusantium! Laboriosam veniam minus dicta animi. Impedit
+        maiores voluptatem voluptates modi reiciendis eligendi, possimus enim!
+        Beatae suscipit dolores pariatur ipsam corporis aspernatur? Minus.
+      </p>`;
 var aboutContent = `<h1>ABOUT</h1> 
 <button onclick="dynamicListener()">PRESS</button> 
 <a href="#">ABOUT Button</a>`;
