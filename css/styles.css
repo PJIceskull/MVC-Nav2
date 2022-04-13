@@ -42,7 +42,6 @@ p {
 
 nav {
   height: 50px;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -55,16 +54,13 @@ nav a {
 }
 
 footer {
-  height: 60px;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  height: 60px;
   background-color: #ff3f3c;
   font-family: sans-serif;
   color: #ffaead;
-  position: fixed;
-  bottom: 0;
 }
 
 Form {
