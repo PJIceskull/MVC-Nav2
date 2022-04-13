@@ -1,5 +1,6 @@
 nav {
   height: 50px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -13,6 +14,7 @@ nav {
 
 footer {
   height: 60px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -20,4 +22,6 @@ footer {
   font-family: sans-serif;
   // color: #fff;
   color: #ffaead;
+  position: fixed;
+  bottom: 0;
 }
