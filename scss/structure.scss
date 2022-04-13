@@ -31,7 +31,9 @@ p {
 
 .heroBanner {
   height: 330px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+  //   url(../images/grandCrayon.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
     url(../images/grandCrayon.jpg);
   background-size: cover;
   background-position: top;
