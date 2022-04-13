@@ -45,7 +45,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgb(255, 63, 60);
+  background-color: #ff3f3c;
 }
 nav a {
   text-decoration: none;
@@ -58,9 +58,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgb(255, 63, 60);
+  background-color: #ff3f3c;
   font-family: sans-serif;
-  color: #fff;
+  color: #ffaead;
 }
 
 Form {
@@ -72,12 +72,12 @@ Form div {
 Form .contactBox {
   height: 50px;
   width: 50%;
-  border: 2px solid rgb(255, 63, 60);
+  border: 2px solid #ff3f3c;
   margin-top: 25px;
   padding-left: 5px;
 }
 Form .submitBOX {
-  background-color: rgb(255, 63, 60);
+  background-color: #ff3f3c;
   color: #ffffff;
   font-size: 16px;
   border-style: none;
@@ -87,7 +87,7 @@ Form .submitBOX {
   margin-top: 25px;
 }
 Form .submitBOX:hover {
-  background-color: rgb(191, 52, 49);
+  background-color: #bf3431;
 }
 
 /*# sourceMappingURL=styles.css.map */
