@@ -1,7 +1,7 @@
-# Homework 9
+# MVC 9 Model Test
 
-### Web 4 Link
+### GitHub Pages
 
-https://in-info-web4.informatics.iupui.edu/~pissah/SP22/homework-nine/
+##https://pjiceskull.github.io/MVC-Nav2/
 
 The goal of this project is to set up a MVC project and add content to the page when you click on a link by using the MVC model.
